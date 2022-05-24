@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 头部 */
+header {
+    width: 100%;
+    height: 95px;
+    position: relative;
+    box-shadow: 0px -2px 9px 2px #999;
+}
+
+header>img {
+    width: 142px;
+    height: 56px;
+    position: absolute;
+    left: 412px;
+    top: 21px;
+}
+
+header>p {
+    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 1269px;
+    top: 41px;
+    border: 1px solid red;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+
+header>p>a {
+    text-decoration: none;
+    color: red;
+}
+
+header>.ouy {
+    list-style: none;
+    width: 500px;
+    height: 47px;
+    position: absolute;
+    bottom: 0px;
+    left: 578px;
+}
+
+header>.ouy>li {
+    color: red;
+    float: left;
+    line-height: 47px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+header>.ouy>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+header>.ouy>li>a:hover {
+    color: red;
+}
+
+header>p:hover{
+    background-color: red;
+}
+
+
+header>p>a:hover{
+    color: white;
+    padding: 9px 11px;
+}
+
+span{
+    position: absolute;
+    right: 455px;
+    top: 26px;
+    width: 65px;
+    height: 67px;
+    background: url(../../css/img/search.png)no-repeat 20px 18px;
+}
+span:hover{
+    background-size: 31px;
+}
+
+/* 酷玩top */
+.ls{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.ls>h1{
+    font-size: 42px;
+    font-weight: 500;
+    float: left;
+    margin-top: 37px;
+    margin-left: 792px;
+}
+
+.ls>ul{
+    list-style: none;
+    background-color: black;
+    margin: 10px;
+}
+.ls>ul>li{
+    display: inline;
+    color: white;
+}
+
+.li{
+    text-align: center;
+    float: left;
+    width: 663px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: -431px;
+}
+.li>a{
+    width: 100px;
+    text-decoration: none;
+    float: left;
+    margin: -2px 53px;
+    font-size: 20px;
+    padding: 12px 0px;
+    color: #a3a3a3;
+}
+.li>.li1{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+/* 酷玩品类内容 */
+.ol{
+    background-color: rgba(212, 210, 210, 0.331);
+    width: 1690px;
+    height: 3005px;
+}
+.cc{
+    width: 1000px;
+    height: 2181px;
+    position: absolute;
+    top: 278px;
+    left: 362px;
+    /* background-color: red; */
+}
+.cc>ul{
+    list-style: none;
+
+}
+.cc>ul>li{
+    width: 1000px;
+    height: 330px;
+    background-color: rgb(252, 252, 252);
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+#lu{
+    height: 470px;
+}
+.cc>ul>li>p{
+    margin: 8px 26px;
+}
+.cc>ul>li>strong{
+    background-color: red;
+    width: 6px;
+    height: 23px;
+    float: left;
+    margin-top: -28px;
+    margin-left: 0px;
+}
+.ss{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    border-bottom: 1px solid #a3a3a336;
+}
+.ss>a{
+    text-decoration: none;
+    color: #a3a3a3;
+    text-align: center;
+}
+/* 内容第一 */
+.lio1{
+    width: 166px;
+    height: 151px;
+}
+.lio1:hover{
+    color: red;
+}
+.lio1>img{
+    margin-left: 10px;
+}
+
+
+.lio2{
+    width:166px;
+    height: 151px;
+    float: left;
+    margin-top: -151px;
+    margin-left: 166px;
+}
+.lio2:hover{
+    color: red;
+}
+.lio3{
+    width: 166px;
+    height: 151px;
+    float: left;
+    margin-top: -151px;
+    margin-left: 332px;
+}
+.lio3:hover{
+    color: red;
+}
+.lio4{
+    width: 166px;
+    height: 151px;
+    float: left;
+    margin-top: -151px;
+    margin-left: 498px;
+}
+.lio4:hover{
+    color: red;
+}
+.lio5{
+    width: 166px;
+    height: 151px;
+    float: left;
+    margin-top: -151px;
+    margin-left: 664px;
+}
+.lio5:hover{
+    color: red;
+}
+.lio6{
+    width: 166px;
+    height: 151px;
+    float: left;
+    margin-top: -151px;
+    margin-left: 830px;
+}
+.lio6:hover{
+    color: red;
+}
+.lio7{
+    width: 166px;
+    height: 151px;
+    position: absolute;
+    top: 187px;
+}
+.lio7:hover{
+    color: red;
+}
+.lio8{
+    width: 166px;
+    height: 151px;
+    position: absolute;
+    top: 187px;
+    left: 166px;
+}
+.lio8:hover{
+    color: red;
+}
+
+/* 下 */
+.ot{
+    width: 1000px;
+    height: 140px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.ot1>a{
+    text-decoration: none;
+}
+.ot>ul{
+    list-style: none;
+    margin-top:10px;
+}
+.ot1>a>li{
+    display: inline;
+}
+.ot1>a>li{
+        padding: 0px 42px;
+        color: #a3a3a3;
+}
+.ot1>a>li:hover{
+    color: red;
+}
+.ot2>a>li{
+    display: inline;
+}
+.ot2>a{
+    text-decoration: none;
+}
+.ot2>a>li{
+    padding: 0px 43px;
+    color: #a3a3a3;
+}
+.ot2>a>li:hover{
+    color: red;
+}
+.ot3>a{
+    text-decoration: none;
+}
+.ot3>a>li{
+    display: inline;
+}
+.ot3>a>li{
+    padding: 0px 38px;
+    color: #a3a3a3;
+}
+.ot3>a>li:hover{
+    color: red;
+}
+
+/* 第二 */
+.oc{
+    width: 1000px;
+    height: 96px;
+    float: left;
+    margin-top: -149px;
+    margin-left: 0px;
+    border-top: 1px solid #a3a3a336;
+}
+.oc>ul{
+    margin-top: 10px;
+}
