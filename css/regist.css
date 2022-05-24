@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #f7f7f7;
+}
+.top {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+}
+.top ul {
+  width: 1300px;
+  margin: 0 auto;
+}
+.top ul li {
+  text-align: center;
+  line-height: 80px;
+  width: 100px;
+  height: 80px;
+  float: left;
+}
+.top ul li a {
+  color: black;
+  font-size: 18px;
+}
+.top ul li img {
+  width: 100%;
+}
+.top ul .logo1 {
+  width: 200px;
+}
+.top ul .register {
+  margin-left: 300px;
+}
+.top ul .register div {
+  width: 60px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+}
+.top ul .register div a {
+  position: relative;
+  top: -23px;
+}
+.top ul .register div :hover {
+  font-size: 20px;
+  font-weight: 600;
+}
+.box {
+  width: 1000px;
+  height: 800px;
+  border-radius: 15px;
+  margin: 40px auto;
+  border: solid 1px #ddd;
+  background-color: #fff;
+}
+.box p {
+  margin-top: 10px;
+}
+.box p span {
+  float: left;
+  width: 8px;
+  height: 20px;
+  background-color: #fe5341;
+  margin-right: 20px;
+}
+.box .box_inpu {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.box .box_inpu input {
+  width: 350px;
+  height: 40px;
+  background-color: #f7f7f7;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.box .box_inpu button {
+  width: 350px;
+  height: 40px;
+  background-color: #fe5341;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.box .box_inpu .inp_min {
+  width: 200px;
+  height: 40px;
+}
+.box .box_inpu span {
+  width: 75px;
+  height: 35px;
+  float: right;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  line-height: 35px;
+  border-radius: 5px;
+}
+.box .box_inpu img {
+  position: relative;
+  left: 218px;
+  top: -298px;
+  border: 1px solid #ddd;
+}
+.box .box_inpu .inp_min_sp img {
+  width: 100%;
+}
+.red {
+  border: 1px solid red;
+}
