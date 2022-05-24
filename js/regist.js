@@ -17,20 +17,21 @@ window.addEventListener("load",function(){
         }
     }
     //2.验证码部分
-    yanzhengma.onclick =function(){
-        if(telval.test(tel.value)){
+    yanzhengma.onclick = function () {
+        if (telval.test(tel.value)) {
             alert("6688");
-        }else{
+        } else {
             alert("请输入正确的手机号");
         }
     }
-    regist.onclick= function(){
-        if(telval.test(tel.value) && pwd.value==pwd2.value){
+    regist.onclick = function () {
+        if (telval.test(tel.value) && pwd.value == pwd2.value) {
             alert("注册成功");
-            setCookie("tel",tel.value,20);
-            setCookie("name",name.value,20);
-            setCookie("pwd",pwd.value,20);
-        }else{
+            setCookie('tel', tel.value, 20);
+            setCookie('name', name.value, 20);
+            setCookie('pwd', pwd.value, 20);
+            window.location.href = 'dly.html';
+        } else {
             alert("格式不正确，请从新输入")
             // tel.value = '';
             // pwd.value = '';
