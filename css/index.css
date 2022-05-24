@@ -11,6 +11,55 @@
   margin-top: 50px;
   text-align: center;
 }
+
+/* 幻想小贝 */
+.h2 {
+  width: 348px;
+  position: absolute;
+  right: 354px;
+  top: 52px;
+  animation: tor 0.3s forwards;
+}
+
+@keyframes tor {
+  0% {
+      /* transform: translate(100px -100px); */
+      right: 162px;
+      top: -192px;
+  }
+
+  10% {
+      right: 170px;
+      top: -160px;
+  }
+
+  30% {
+      right: 200px;
+      top: -120px;
+  }
+
+  50% {
+      right: 240px;
+      top: -89px;
+  }
+
+  70% {
+      right: 290px;
+      top: -30px;
+  }
+
+  80% {
+      right: 330px;
+      top: 20px;
+  }
+
+  100% {
+      right: 354px;
+      top: 52px;
+  }
+}
+
+
 .xiaobei p {
   margin-top: 30px;
 }
@@ -272,4 +321,19 @@
 }
 .faxian .kuwan ul li a p {
   color: #000;
+}
+
+.span2{
+  display: inline-block;
+  margin-left: 900px;
+  color: #fe5b4b;
+}
+.span1{
+   position: relative; 
+  width: 20px;
+  height: 20px;
+  left: 890px;
+  
+  background-image: url(./loading-icon.gif); 
+   display: none; 
 }
