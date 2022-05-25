@@ -92,7 +92,7 @@ span:hover{
     text-align: center;
     background-color:  rgb(255,255,255);
 }
-.ls>h2{
+.ls>h1{
     font-size: 42px;
     font-weight: 500;
     float: left;
@@ -133,7 +133,7 @@ span:hover{
 }
 /* 内容 */
 .ol{
-    width: 1676px;
+    width: 1660px;
     float: left;
     margin: 10px 10px;
 }
@@ -295,5 +295,6 @@ span:hover{
     text-decoration: none;
     color: rgb(153, 153, 153);
 }
+
 
 

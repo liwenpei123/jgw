@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   list-style: none;
   text-decoration: none;
@@ -32,6 +32,18 @@ body {
 }
 .top ul .logo1 {
   width: 200px;
+}
+.top ul .regisea {
+  position: relative;
+  top: 5px;
+  left: 290px;
+}
+.top ul .regisea img {
+  width: 18px;
+}
+.top ul .regisea :hover {
+  width: 20px;
+  cursor: pointer;
 }
 .top ul .register {
   margin-left: 300px;
