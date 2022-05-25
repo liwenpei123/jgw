@@ -133,179 +133,27 @@ span:hover{
 }
 /* 内容 */
 .ol{
-    width: 1690px;
-    height: 1194px;
-    background-color: rgb(247,247,247);
+    width: 1676px;
+    float: left;
+    margin: 10px 10px;
+}
+.po{
+    width: 1111px;
+    float: left;
+    margin: 2px 356px;
     position: relative;
 }
 /* 第一行 */
-.ol>.lk1{
+.lk1{
     width: 227px;
     height: 216px;
     background-size: 228px;
     background-color: rgb(255,255,255);
-    position: absolute;
-    top: 43px;
-    left: 323px;
     border-radius:7px;
+    float: left;
+    margin: 32px 13px;
 }
 
-.ol>.lk2{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 43px;
-    left: 614px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk3{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 43px;
-    left: 901px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk4{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 43px;
-    left: 1191px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-/* 第二行 */
-.ol>.lk5{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 306px;
-    left: 323px;
-    background-size: 228px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-
-.ol>.lk6{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 306px;
-    left: 614px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk7{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 306px;
-    left: 901px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk8{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 306px;
-    left: 1191px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-/* 第三行 */
-.ol>.lk9{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 569px;
-    left: 323px;
-    background-size: 228px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-
-.ol>.lk10{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 569px;
-    left: 614px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk11{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 569px;
-    left: 901px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk12{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 569px;
-    left: 1191px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-/* 第四行 */
-.ol>.lk13{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 832px;
-    left: 323px;
-    background-size: 228px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-
-.ol>.lk14{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 832px;
-    left: 614px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk15{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 832px;
-    left: 901px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
-.ol>.lk16{
-    width: 227px;
-    height: 216px;
-    position: absolute;
-    top: 832px;
-    left: 1191px;
-    background-size: 227px;
-    border-radius:7px;
-    background-color: rgb(255,255,255);
-}
 
 .lp{
     width: 100%;
@@ -344,10 +192,12 @@ span:hover{
     background: url(../../css/img/xin.png)no-repeat 1px 1px;
 }
 
-.ol>div>img{
+.ol>.po>div>img{
     border-radius:7px ;
+    width: 100%;
+    height: 120px;
 }
-.ol>div:hover img{
+.po>div:hover img{
     animation:go 2s infinite alternate;
 }
 @keyframes go {
@@ -364,13 +214,86 @@ span:hover{
 
  .de{
      position: absolute;
-     top: 1105px;
-     left: 778px;
+     bottom: -2px;
+     left: 422px;
      font-size: 20px
  }
  .de>a{
      text-decoration: none;
      color: rgb(255, 83, 65);
  }
+
+
+ /* 底部 */
+ .foot {
+    padding: 40px 0 15px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(80, 80, 80);
+    float: left;
+}
+
+.wrap {
+    margin-left: 321px;
+    position: relative;
+}
+
+.foot dl {
+    float: left;
+    font-size: 13px;
+    padding-left: 22px;
+    line-height: 20px;
+}
+
+.foot dl dt {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.foot dl:nth-child(2) dd:last-child {
+    margin-top: 13px;
+}
+
+.foot dl:nth-child(4) dd a {
+    display: inline-block;
+    width: 69px;
+}
+
+.foot dl:nth-child(1) {
+    padding-left: 0;
+}
+
+.foot dl:nth-child(2) {
+    width: 140px;
+}
+
+.foot dl:nth-child(3) {
+    width: 100px;
+}
+
+.foot dl:nth-child(4) {
+    width: 140px;
+}
+
+.foot dl:nth-child(5) {
+    width: 148px;
+}
+
+.foot dl:nth-child(6) {
+    width: 180px;
+}
+
+.foot .copy {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 13px;
+    position: absolute;
+    bottom: -290px;
+    left: 500px;
+}
+.fix>dl>dd>a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
 
 
